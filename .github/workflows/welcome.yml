@@ -2,7 +2,7 @@ name: Post welcome comment
 on:
   pull_request:
     types: [opened]
-  workflow_dispatch
+  workflow_dispatch:
 permissions:
   pull-requests: write
 jobs:
